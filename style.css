@@ -1,0 +1,57 @@
+
+
+.body{
+    background-color: whitesmoke;
+    margin: 0px;
+    background-color: lightskyblue;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: turquoise;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    padding:1%;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color:lightskyblue;
+    
+}
+
+.origami{
+    border-radius: 15px;
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:limegreen ;
+}
+
+h1:hover{
+    transform: scale(1.5, 1.5);
+    margin-left: 60px;
+}
+
+a:hover{
+    transform: scale(1.5, 1.5);
+}
